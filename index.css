@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body {
+  margin: 0px;
+}
+
+.banner {
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #e861e1, #fad623);
+  padding-bottom: 50px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.header-container {
+  display: flex;
+  font-size: 17px;
+  justify-content: space-around;
+  width: 75%;
+  margin: auto;
+}
+
+@media screen and (max-width: 576px) {
+  .header-container {
+    flex-direction: column;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+
+  .icons-container {
+    align-self: flex-start;
+    margin-left: 50px;
+  }
+}
+
+.header-text {
+  letter-spacing: 3px;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+.icons-container {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.icon-size {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.banner-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("https://ik.imagekit.io/dinesh16dina/img1_qTi71Qi8_.jpg?updatedAt=1683171004388");
+  background-size: cover;
+  height: 90vh;
+  padding-left: 50px;
+}
+
+.card-container {
+  background-color: hsla(0, 100%, 72%, 0.5);
+  padding-left: 50px;
+  width: 380px;
+  padding-right: 65px;
+  padding-bottom: 20px;
+}
+
+.title {
+  color: #ffffff;
+  letter-spacing: 3px;
+  font-size: 45px;
+  font-family: "Roboto";
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+
+.description {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Open Sans";
+}
